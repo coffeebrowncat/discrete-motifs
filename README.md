@@ -1,5 +1,4 @@
-# discrete-motifs
-CS1005 Discrete Structures, Fall 2026
+# CS1005 Discrete Structures, Fall 2026
 
 Group Members	      Roll number	    Section
 Merub Absar Khan	  24i-0611	      A
