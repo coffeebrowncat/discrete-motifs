@@ -1,0 +1,3 @@
+matplotlib
+numpy
+networkx   # only used by tests.py / --check-nx to sanity-check T4 counts
