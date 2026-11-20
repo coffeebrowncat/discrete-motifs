@@ -1,0 +1,27 @@
+loaded simple graph: 42 depts, 1005 nodes, 24929 edges
+=== T1: parameters ===
+R                      1507
+pair_number            177
+pair                   (14, 17)
+department_A           5
+department_B           22
+random_networks        39
+swap_attempts_factor   6
+seed                   1507
+top-20 departments (index: dept, internal edges):
+  0: 14 (1506), 1: 4 (1167), 2: 7 (679), 3: 21 (601), 4: 1 (502), 5: 10 (472), 6: 17 (441), 7: 0 (426), 8: 15 (357), 9: 11 (339), 10: 19 (306), 11: 13 (279), 12: 16 (236), 13: 36 (208), 14: 5 (147), 15: 9 (146), 16: 8 (134), 17: 22 (118), 18: 37 (99), 19: 20 (70)
+
+=== T2: department A = 5: 18 nodes, 147 edges ===
+T4 real counts N1..N13: [8, 20, 61, 12, 11, 22, 39, 62, 0, 28, 29, 105, 78]
+T5 check passed: in/out-degrees unchanged for all 39 random graphs
+T6 Z-scores: [-2.15, -0.7, 1.29, -0.97, -1.45, -0.57, -1.02, 2.0, -1.87, -1.15, 1.7, -1.48, 1.37]
+   motifs     (Z>2): []
+   anti-motifs(Z<-2): [1]
+
+=== T2: department B = 22: 25 nodes, 118 edges ===
+T4 real counts N1..N13: [4, 4, 62, 3, 2, 27, 15, 50, 0, 0, 1, 38, 102]
+T5 check passed: in/out-degrees unchanged for all 39 random graphs
+T6 Z-scores: [-1.23, -0.9, -0.88, -0.23, -1.36, 1.07, -0.58, 1.56, -0.44, -1.76, -0.43, -1.37, 1.16]
+   motifs     (Z>2): []
+   anti-motifs(Z<-2): []
+saved chart: C:\Users\merub\Downloads\discrete-motifs-main\discrete-motifs-main\code\..\output\zscores_R1507.png
